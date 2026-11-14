@@ -1,0 +1,107 @@
+{
+    "dataset_name": "UCI Cleveland Heart Disease Database",
+    "citation": "Detrano, R., et al. (1989). International application of a new probability algorithm for the diagnosis of coronary artery disease. American Journal of Cardiology, 64(5), 304-310.",
+    "total_records": 303,
+    "total_features": 13,
+    "continuous_features": [
+        "age",
+        "trestbps",
+        "chol",
+        "thalach",
+        "oldpeak"
+    ],
+    "categorical_features": [
+        "sex",
+        "cp",
+        "fbs",
+        "restecg",
+        "exang",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "duplicate_records": 0,
+    "total_missing_cells": 6,
+    "rows_with_missing": 6,
+    "missing_per_feature": {
+        "age": 0,
+        "sex": 0,
+        "cp": 0,
+        "trestbps": 0,
+        "chol": 0,
+        "fbs": 0,
+        "restecg": 0,
+        "thalach": 0,
+        "exang": 0,
+        "oldpeak": 0,
+        "slope": 0,
+        "ca": 4,
+        "thal": 2,
+        "target": 0
+    },
+    "target_conversion_explanation": "The clinical gold-standard angiographic assessment records 0 for coronary narrowing <50%, and 1-4 for narrowing >=50% across 1, 2, 3, or 4 major coronary arteries. For binary risk classification, 0 designates Healthy / Low Risk, and 1-4 are mapped to 1 (CAD Present).",
+    "original_target_distribution": {
+        "0": 164,
+        "1": 55,
+        "2": 36,
+        "3": 35,
+        "4": 13
+    },
+    "binary_target_distribution": {
+        "0": 164,
+        "1": 139
+    },
+    "target_balance_ratio": {
+        "no_disease_pct": 54.13,
+        "disease_pct": 45.87
+    },
+    "validity_audit": {
+        "age_valid": true,
+        "trestbps_valid": true,
+        "chol_valid": true,
+        "thalach_valid": true,
+        "oldpeak_valid": true
+    },
+    "feature_stats": {
+        "age": {
+            "mean": 54.44,
+            "std": 9.04,
+            "min": 29.0,
+            "median": 56.0,
+            "max": 77.0,
+            "iqr": 13.0
+        },
+        "trestbps": {
+            "mean": 131.69,
+            "std": 17.6,
+            "min": 94.0,
+            "median": 130.0,
+            "max": 200.0,
+            "iqr": 20.0
+        },
+        "chol": {
+            "mean": 246.69,
+            "std": 51.78,
+            "min": 126.0,
+            "median": 241.0,
+            "max": 564.0,
+            "iqr": 64.0
+        },
+        "thalach": {
+            "mean": 149.61,
+            "std": 22.88,
+            "min": 71.0,
+            "median": 153.0,
+            "max": 202.0,
+            "iqr": 32.5
+        },
+        "oldpeak": {
+            "mean": 1.04,
+            "std": 1.16,
+            "min": 0.0,
+            "median": 0.8,
+            "max": 6.2,
+            "iqr": 1.6
+        }
+    }
+}

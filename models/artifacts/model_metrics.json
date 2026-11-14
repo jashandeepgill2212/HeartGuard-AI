@@ -1,0 +1,219 @@
+{
+    "Logistic Regression": {
+        "accuracy": 0.8689,
+        "precision": 0.8333,
+        "recall": 0.8929,
+        "specificity": 0.8485,
+        "f1": 0.8621,
+        "roc_auc": 0.9632,
+        "clinical_composite_score": 0.9133,
+        "confusion_matrix": {
+            "tn": 28,
+            "fp": 5,
+            "fn": 3,
+            "tp": 25,
+            "raw": [
+                [
+                    28,
+                    5
+                ],
+                [
+                    3,
+                    25
+                ]
+            ]
+        },
+        "best_params": {
+            "C": 5.0,
+            "solver": "lbfgs"
+        },
+        "cv_roc_auc_train": 0.9029
+    },
+    "Random Forest": {
+        "accuracy": 0.9016,
+        "precision": 0.8438,
+        "recall": 0.9643,
+        "specificity": 0.8485,
+        "f1": 0.9,
+        "roc_auc": 0.9535,
+        "clinical_composite_score": 0.9439,
+        "confusion_matrix": {
+            "tn": 28,
+            "fp": 5,
+            "fn": 1,
+            "tp": 27,
+            "raw": [
+                [
+                    28,
+                    5
+                ],
+                [
+                    1,
+                    27
+                ]
+            ]
+        },
+        "best_params": {
+            "criterion": "gini",
+            "max_depth": 8,
+            "min_samples_split": 5,
+            "n_estimators": 100
+        },
+        "cv_roc_auc_train": 0.9021
+    },
+    "Decision Tree": {
+        "accuracy": 0.8033,
+        "precision": 0.7667,
+        "recall": 0.8214,
+        "specificity": 0.7879,
+        "f1": 0.7931,
+        "roc_auc": 0.8339,
+        "clinical_composite_score": 0.8193,
+        "confusion_matrix": {
+            "tn": 26,
+            "fp": 7,
+            "fn": 5,
+            "tp": 23,
+            "raw": [
+                [
+                    26,
+                    7
+                ],
+                [
+                    5,
+                    23
+                ]
+            ]
+        },
+        "best_params": {
+            "criterion": "entropy",
+            "max_depth": 3,
+            "min_samples_split": 2
+        },
+        "cv_roc_auc_train": 0.8448
+    },
+    "Support Vector Machine": {
+        "accuracy": 0.8361,
+        "precision": 0.8,
+        "recall": 0.8571,
+        "specificity": 0.8182,
+        "f1": 0.8276,
+        "roc_auc": 0.9426,
+        "clinical_composite_score": 0.8839,
+        "confusion_matrix": {
+            "tn": 27,
+            "fp": 6,
+            "fn": 4,
+            "tp": 24,
+            "raw": [
+                [
+                    27,
+                    6
+                ],
+                [
+                    4,
+                    24
+                ]
+            ]
+        },
+        "best_params": {
+            "C": 0.1,
+            "gamma": "scale",
+            "kernel": "linear"
+        },
+        "cv_roc_auc_train": 0.9047
+    },
+    "K-Nearest Neighbors": {
+        "accuracy": 0.8852,
+        "precision": 0.8621,
+        "recall": 0.8929,
+        "specificity": 0.8788,
+        "f1": 0.8772,
+        "roc_auc": 0.9621,
+        "clinical_composite_score": 0.9167,
+        "confusion_matrix": {
+            "tn": 29,
+            "fp": 4,
+            "fn": 3,
+            "tp": 25,
+            "raw": [
+                [
+                    29,
+                    4
+                ],
+                [
+                    3,
+                    25
+                ]
+            ]
+        },
+        "best_params": {
+            "metric": "manhattan",
+            "n_neighbors": 11,
+            "weights": "distance"
+        },
+        "cv_roc_auc_train": 0.8996
+    },
+    "Gradient Boosting": {
+        "accuracy": 0.8689,
+        "precision": 0.8571,
+        "recall": 0.8571,
+        "specificity": 0.8788,
+        "f1": 0.8571,
+        "roc_auc": 0.928,
+        "clinical_composite_score": 0.8855,
+        "confusion_matrix": {
+            "tn": 29,
+            "fp": 4,
+            "fn": 4,
+            "tp": 24,
+            "raw": [
+                [
+                    29,
+                    4
+                ],
+                [
+                    4,
+                    24
+                ]
+            ]
+        },
+        "best_params": {
+            "learning_rate": 0.01,
+            "max_depth": 3,
+            "n_estimators": 100
+        },
+        "cv_roc_auc_train": 0.8847
+    },
+    "XGBoost": {
+        "accuracy": 0.8689,
+        "precision": 0.8571,
+        "recall": 0.8571,
+        "specificity": 0.8788,
+        "f1": 0.8571,
+        "roc_auc": 0.9421,
+        "clinical_composite_score": 0.8911,
+        "confusion_matrix": {
+            "tn": 29,
+            "fp": 4,
+            "fn": 4,
+            "tp": 24,
+            "raw": [
+                [
+                    29,
+                    4
+                ],
+                [
+                    4,
+                    24
+                ]
+            ]
+        },
+        "best_params": {
+            "learning_rate": 0.01,
+            "max_depth": 3,
+            "n_estimators": 150
+        },
+        "cv_roc_auc_train": 0.875
+    }
+}
