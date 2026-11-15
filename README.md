@@ -215,5 +215,5 @@ The interactive application will launch in your browser at `http://localhost:850
 
 ---
 
-**Developed for Final-Year B.Tech Academic Capstone Project**  
+  
 *HeartGuard AI – Intelligent Heart Disease Prediction & Risk Analysis System*
